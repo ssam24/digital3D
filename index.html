@@ -7,23 +7,24 @@
     <link href="css/hoja-de-estilos.css" rel="stylesheet" type="text/css"/> 
 </head>
   <body> 
-      <main> 
-     <header class="borde">  
+
+     <header class="borde" id="cabecera">  
        <nav class="borde"> 
        <img src="imagenes/logo.png"/> 
      </header>
-       <nav class="borde">
-         <a href="#">CEO</a> 
+     <main> 
+       <nav class="borde" id="menu"> 
+         <a href="#" class="menu_activo">CEO</a> 
          <a href="#">Nueva empresa</a>
          <a href="#">Cotizador</a>
        </nav>
-       <section >
+       <section id="sec_quien_soy" > 
            <article class="borde">
              <img src="imagenes/unnamed.jpg"> 
            </article>
-           <article class="borde"> 
+           <article class="borde" id="soy_dg"> 
                <h1>Hola, soy <i>Carlos David Pérez</i></h1>
-               <small>Y SOY DISEÑADOR GRÁFICO</small> 
+               <small id="small_soy_dg">Y SOY DISEÑADOR GRÁFICO</small> 
                <hr> 
                <p> 
                  ¡Hola! Si estás aquí, es porque quieres saber un poco más sobre mí, por eso, te voy a contar un poco quién soy, a qué me dedico, y cómo te puedo ayudar.</p>
@@ -42,8 +43,10 @@
            </article>
           </section>
       
-       <section class="borde"> 
+       <section class="borde" id="sec_a_que_me_dedico"> 
          <h1>¿A qué me dedico? </h1>
+          
+         <hr id="rayita"> 
 
          <p> Actualmente, me dedico profesionalmente al diseño web con WordPress a tiempo completo. 
            Es un trabajo que me encanta y que me permite disfrutar, por fin, de pasar horas y horas delante del ordenador, cosa que nunca antes me había sucedido.</p>
@@ -56,11 +59,11 @@
             
        </section> 
 
-        <section class="borde"> 
-          <h1>¿Cómo puedo ayudarte?</h1> 
-         
-          <article>
-          <h5>Diseño Litográfico</h5>
+        <section class="borde" id="como_puedo_ayudarte"> 
+          <h1>¿Cómo puedo ayudarte?</h1>  
+         <section id="servicios">  
+           <article> 
+          <h3>Diseño Litográfico</h3>  
           <p> Nuestros servicios profesionales enfocados al diseño e impresión litográfica, nuestra maquinaria, 
             como nuestro equipo de profesionales en las artes gráficas nos permite realizar grandes producciones con altos estándares de calidad.
           </p>
@@ -68,7 +71,7 @@
         </article>
          
          <article>
-           <h5> Diseño tienda online</h5>
+           <h3> Diseño tienda online</h3>
            <p> Te creo y diseño una tienda online completamente funcional con WordPress y WooCommerce para que puedas comenzar a vender tus productos.
               Da igual que tenga pocos o miles de productos.
              </p>
@@ -76,21 +79,50 @@
          </article>
 
          <article>
-           <h5> Mantenimiento web </h5>
+           <h3> Mantenimiento web </h3> 
            <p> 
             Me encargo de tener tu web hecha con WordPress al día y sin problemas, manteniéndola actualizada, optimizada, creando copias de seguridad,
              solucionando los problemas que vayan surgiendo, etc.
            </p>
            <button> Ver Servicio </button> 
-         </article>
-       </section> 
+          </article> 
+          </section> 
+          </section> 
+          
 
+       <section class="borde" id="herramientas"> 
+       <h1>  
+        Herramientas de mi domino 
+       </h1>
+       <table border="1"> 
+         <thead>
+           <tr> 
+             <th>Photoshop</th>
+             <th>Illustrator</th>
+             <th>CorelDraw</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>
+               <img src="imagenes/Adobe_Photoshop_CS5_icon.png">
+             </td>
+             <td>
+               <img src="imagenes/200px-Illustrator_CC_icon.png">
+             </td>
+             <td>
+               <img src="imagenes/corel.png"> 
+             </td>
+           </tr>
+         </tbody> 
+       </table> 
+      </section> 
 
-       <section> 
-
-       </section>
+      </main> 
        <footer class="borde">  
-         
+         <p> 
+          Copyright © 2020 | Medellin -<a href="https://www.antioquia.gov.co/" target="_blank"> Antioquia </a> , Colombia | Nuestra empresa |  Contacto 
+            </p> 
        </footer>
        </main> 
   </body>
