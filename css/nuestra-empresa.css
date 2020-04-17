@@ -1,0 +1,119 @@
+body{
+    padding: 1% 10% 1% 10%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.borde {
+    border: 1px solid black;  
+    padding: 15px; 
+} 
+#cabecera{
+    text-align: center;
+} 
+#menu {
+    text-align: center; 
+}
+#menu a {
+    display: inline-block; 
+    background-color: rgb(200, 226, 248);
+    color: black; 
+    padding: 1px 10px 1px 10px; 
+    text-decoration: none; 
+    width: 15%;
+    border-radius: 5%; 
+} 
+#menu a:hover{
+    color: white; 
+    background-color: gray; 
+}
+#menu a:active{
+    color:blue; 
+}
+#menu .menu_activo{ 
+    background-color: orangered;
+} 
+#quienes_somos {
+    display: flex;
+    text-align: justify; 
+}
+#quienes_somos #img_oficina{
+    text-align: center;
+}
+#quienes_somos img {
+    width: 100%;
+     
+}
+#quienes_somos #somos h1 {
+        margin: 0;
+
+}
+#somos small {
+    text-transform: uppercase;
+    font-size: 10px; 
+}
+#somos hr {
+    margin-left:  0; 
+    width: 30%; 
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(1deg); 
+  background-color: black; 
+}
+#nuestro_equipo {
+    text-align: center;
+    background-color: #6fa8dc; 
+    color: white; 
+
+
+}
+#nuestro_equipo{
+    margin-bottom: 0;
+}
+#nuestro_equipo hr {
+    margin-left:  0; 
+    width: 15%; 
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(1deg); 
+  background-color: white; 
+  margin: 0 auto; 
+}
+#empleados {
+    text-align: center;
+    color: black;
+
+}
+#empleados h1 {
+    margin-bottom: 0;
+}
+#empleados hr {
+    margin-left:  0; 
+    width: 18%; 
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(1deg); 
+  background-color: black; 
+  margin: 0 auto; 
+}
+#empleados table {
+    margin: 20px auto;
+    text-align: left;
+    width: 75%;
+    border: 2px solid black; 
+
+}
+#empleados table thead {
+    background-color: gray;
+}
+#empleados table tr:nth-child(even){
+    background-color: lightgray;
+}
+.vacios {
+    height: 20px; 
+}
+#empleados table td,th {
+    padding-left: 5px;
+}
+footer p {
+    text-align: center; 
+} 
